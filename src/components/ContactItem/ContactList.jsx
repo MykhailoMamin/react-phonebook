@@ -1,9 +1,11 @@
 const ContactList = ({ contacts }) => {
   return (
     <ul>
-      {contacts.map(({ id, text }) => (
+      {contacts.map(({ id, text, number }) => (
         <li key={id}>
-          <p>{text}</p>
+          <p>
+            {text}: {number}
+          </p>
         </li>
       ))}
     </ul>
