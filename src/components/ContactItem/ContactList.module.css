@@ -1,0 +1,13 @@
+.contactsItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 300px;
+  list-style: none;
+}
+
+.contactsButton {
+  cursor: pointer;
+  width: 75px;
+}
